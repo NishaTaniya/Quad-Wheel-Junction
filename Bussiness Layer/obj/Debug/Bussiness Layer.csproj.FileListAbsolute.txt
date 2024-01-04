@@ -1,0 +1,9 @@
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\bin\Debug\Bussiness Layer.dll
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\bin\Debug\Bussiness Layer.pdb
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\bin\Debug\Data Layer.dll
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\bin\Debug\Data Layer.pdb
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\obj\Debug\Bussiness Layer.csprojAssemblyReference.cache
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CopyComplete
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\obj\Debug\Bussiness Layer.dll
+C:\Users\Hp\source\repos\Quad Wheel Junction\Bussiness Layer\obj\Debug\Bussiness Layer.pdb

@@ -1,0 +1,6 @@
+C:\Users\Hp\source\repos\Quad Wheel Junction\Data Layer\bin\Debug\Data Layer.dll
+C:\Users\Hp\source\repos\Quad Wheel Junction\Data Layer\bin\Debug\Data Layer.pdb
+C:\Users\Hp\source\repos\Quad Wheel Junction\Data Layer\obj\Debug\Data Layer.csprojAssemblyReference.cache
+C:\Users\Hp\source\repos\Quad Wheel Junction\Data Layer\obj\Debug\Data Layer.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\Quad Wheel Junction\Data Layer\obj\Debug\Data Layer.dll
+C:\Users\Hp\source\repos\Quad Wheel Junction\Data Layer\obj\Debug\Data Layer.pdb

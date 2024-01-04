@@ -1,0 +1,48 @@
+﻿.ftco-cover-1, .ftco-cover-1 .container > .row {
+    min-height:1000px;
+}
+
+.container-form {
+    height: 10%;
+}
+
+.feature-car-rent-box-1 ul li{
+    width:100%;
+    padding : 5px;
+}
+
+.feature-car-rent-box-1 {
+    position : absolute;
+    top : 100px;
+    left : 100px;
+    width : 500px;
+}
+
+.form-element {
+    height: 100%;
+    width :100%;
+    font-size: 15px;
+    margin :5px;
+}
+
+.add-border {
+    border:1px solid grey;
+    border-radius:5px;
+    width:100%;
+    padding : 5px;
+}
+
+.full {
+    width:100%;
+}
+
+.full-small {
+    width: 100%;
+    font-size:10px;
+}
+
+.ftco-cover-1.overlay form .form-control, .ftco-cover-1.overlay form .btn {
+    width: 40%;
+    margin: auto;
+    height:40px;
+}

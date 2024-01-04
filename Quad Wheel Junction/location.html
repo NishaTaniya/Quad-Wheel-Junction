@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Location</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css" />
+    <style>
+        .container {
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+
+    <script src="appJs/app.js"></script>
+</head>
+<body>
+    <section class="container">
+        <div class="ui icon big input" id="location-input-section">
+            <input type="text" placeholder="Enter Your Address" id="autocomplete" />
+            <i aria-hidden="true" class="dot circle outline link icon" id="location-button"></i>
+        </div>
+    </section>
+</body>
+
+</html>

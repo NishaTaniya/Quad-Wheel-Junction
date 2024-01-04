@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Customer.master.cs" Inherits="Quad_Wheel_Junction.Customer" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html {
+            height : 100%;
+        }
+        body {
+            height: 100%;
+            margin:0;
+            padding : 0;
+        }
+        .main {
+            height: 1500px; 
+            display:flex;
+            flex-direction:row;
+        }
+
+        .left {
+            width: 20%; 
+            height: 100%; 
+            background-color:#2b2e4a;
+        }
+
+        .right {
+            width:80%;
+            height:100%;
+            padding : 20px;
+        }
+
+        .left ul {
+            list-style-type:none;
+            width:100%;
+            margin:0;  padding:0;
+        }
+
+        .left li {
+            width:100%;
+            padding : 10px 5px;
+            text-align:center;
+        }
+
+        .left a {
+            text-decoration:none;
+            color : white;
+            font-size:20px;
+            width:100%;
+            height:100%;
+        }
+
+        .left li:hover {
+           background-color:#1F305E;
+           border-left:5px solid #e84545;
+        }
+    
+    </style>
+    
+    <script type="text/javascript">
+        function showDialogue() {
+            alert("this dialogue has been invoked through codebehind.");
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- color palatte : 2b2e4a:blue ; e84545:pink ; 903749:marun ; 53354a:purple -->
+    <form id="form1" runat="server">
+    <section style="padding:20px 40px 20px 15px;width:100%">
+        <div style="float:left;color:#f21170;text-shadow:1px 1px 1px black;font-family:cursive;font-size:25px;font-weight:900">Quad Wheel Juction</div>
+        <div style="float:right">
+            <asp:Button Text="Log Out" ID="LogOut" class="btn btn-dark" runat="server" causesvalidation="false" OnClick="LogOut_Click" />
+        </div>
+    </section>
+        <br />
+        <br />
+        <hr style="height:3px;margin:0" />
+        <section style="clear:both">
+        </section>
+        
+        <div class="main">
+            <div class="left">
+                <div style="height:100px;padding:20px 0;display:flex">
+                    <div style="height:100%;width:50%">
+                        <img src="images/carLogo.PNG" style="width:100%;height:100%" alt="logo" />
+                    </div>
+                    <div style="height:100%;width:50%;color:white;font-size:13px;vertical-align:central">
+                        <br /> 
+                        HELLO, <br /> 
+                        <asp:Label  ID="txtuser" Text="username" runat="server" />
+                    </div>
+                </div>
+                <hr style="margin:0;color:grey;opacity:1" />
+                     <ul>
+                         <li id="home"><a href="UserHomePage.aspx"><i class="fa fa-home" aria-hidden="true"></i> DashBoard </a></li>
+                         <asp:Panel ID="CustomerLink" runat="server">
+                            <li id="filter"><a href="Filter.aspx"><i class="fa fa-filter" aria-hidden="true"></i> Filter Driver </a></li>
+                         </asp:Panel>
+                        <li id="post"><a href="Post.aspx"><i class="fa fa-comment-o" aria-hidden="true"></i> Post</a></li>
+                        <li id="profile"><a href="MyProfile.aspx"><i class="fa fa-user" aria-hidden="true"></i> My profile </a></li>
+                         <asp:Panel ID="ReviewLink" runat="server">
+                              <li id="review"><a href="Review.aspx"><i class="fa fa-star" aria-hidden="true"></i> Rate Driver </a></li>
+                        </asp:Panel>
+                         <li id="report"><a href="Report.aspx"<i class="fa fa-info-circle" aria-hidden="true"></i> Reports </a></li>
+                    </ul>
+            </div>
+            
+            <div class="right">
+               
+                <asp:ContentPlaceHolder ID="content" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>
